@@ -1,3 +1,8 @@
+/*
+*	 Author: beshleyua
+*	 Author URL: http://themeforest.net/user/beshleyua
+*/
+
 body {
 	direction: rtl;
 }
@@ -181,7 +186,6 @@ ol, ul {
 .header {
     right: 0;
 }
-
 .card-inner {
     left: auto;
     right: 0;
@@ -251,4 +255,8 @@ ol, ul {
 .fadeOutLeft {
   -webkit-animation-name: fadeOutLeft;
   animation-name: fadeOutLeft;
+}
+
+.large-icon {
+    font-size: 48px; /* Ajusta el tamaño aquí */
 }
