@@ -1,16 +1,3 @@
-/*
-*	 Author: beshleyua
-*	 Author URL: http://themeforest.net/user/beshleyua
-*/
-
-/* TABLE OF CONTENTS
-	1. RTL
-*/
-
-/*
-	1. RTL
-*/
-
 body {
 	direction: rtl;
 }
@@ -194,6 +181,7 @@ ol, ul {
 .header {
     right: 0;
 }
+
 .card-inner {
     left: auto;
     right: 0;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 *   Author: beshleyua
 *   Author URL: http://themeforest.net/user/beshleyua
@@ -27,16 +28,48 @@
   color: #78cc6d;
 }
 
+=======
+/* Color Variable */
+:root {
+  --main-color: #78cc6d; /* Color principal */
+  --background-color: rgba(120, 204, 109, 0.4);
+}
+
+/* Background Gradient */
+.background {
+  background: linear-gradient(to bottom right, #50a3a2 0%, var(--main-color) 100%);
+}
+
+/* Preloader */
+.preloader .spinner .double-bounce1,
+.preloader .spinner .double-bounce2 {
+  background: var(--main-color);
+}
+
+/* Links and Buttons */
+.lnk:hover,
+.button:hover {
+  color: var(--main-color);
+}
+
+.lnk:hover .ion,
+.button:hover .ion,
+>>>>>>> developer
 .lnk:hover .arrow:before,
 .button:hover .arrow:before,
 .lnk:hover .arrow:after,
 .button:hover .arrow:after {
+<<<<<<< HEAD
   background: #78cc6d;
+=======
+  background: var(--main-color);
+>>>>>>> developer
 }
 
 input:focus,
 textarea:focus,
 button:focus {
+<<<<<<< HEAD
   border-bottom: 1px solid #78cc6d;
 }
 
@@ -47,12 +80,26 @@ button:hover {
 .header .top-menu ul li:hover a,
 .header .top-menu ul li.active a {
   color: #78cc6d;
+=======
+  border-bottom: 1px solid var(--main-color);
+}
+
+button:hover {
+  border-bottom: 1px solid var(--main-color);
+}
+
+/* Header */
+.header .top-menu ul li:hover a,
+.header .top-menu ul li.active a {
+  color: var(--main-color);
+>>>>>>> developer
 }
 
 .header .top-menu ul li:hover a .icon,
 .header .top-menu ul li.active a .icon,
 .header .top-menu ul li:hover a .link,
 .header .top-menu ul li.active a .link {
+<<<<<<< HEAD
   color: #78cc6d;
 }
 
@@ -148,3 +195,64 @@ button:hover {
   background: linear-gradient(to bottom right, #50a3a2 0%, #78cc6d 100%);
 }
 
+=======
+  color: var(--main-color);
+}
+
+/* Card Styles */
+.card-started:after,
+.card-started .profile .image:before {
+  background: linear-gradient(135deg, var(--background-color) 0%, rgba(120, 204, 109, 0.01) 100%);
+}
+
+.card-started .profile .subtitle,
+.card-started .profile .social a:hover .ion,
+.card-started .profile .social a:hover .fab,
+.card-started .profile .social a:hover .fas {
+  color: var(--main-color);
+}
+
+/* Content Titles */
+.content .title:before,
+.service-items .service-item .icon,
+.pricing-items .pricing-item .icon,
+.fuct-items .fuct-item .icon,
+.resume-title .icon,
+.skill-title .icon {
+  background: linear-gradient(135deg, var(--background-color) 0%, rgba(120, 204, 109, 0.01) 100%);
+  color: var(--main-color);
+}
+
+/* Resume and Skills */
+.resume-items .resume-item.active .date,
+.skills-list ul li .progress .percentage {
+  color: var(--main-color);
+  background: var(--main-color);
+}
+
+/* Works Filter */
+.content.works .filter-menu .f_btn.active {
+  color: var(--main-color);
+}
+
+/* Popup and Post Styles */
+.box-item .image .info:before {
+  background: linear-gradient(135deg, var(--background-color) 0%, rgba(120, 204, 109, 0.01) 100%);
+}
+
+.post-box .blog-content blockquote {
+  border-left: 2px solid var(--main-color);
+}
+
+.post-box .blog-content ul.list-style li:before {
+  background: var(--main-color);
+}
+
+.post-box .post-comments li .comment-info .name h6 {
+  color: var(--main-color);
+}
+.large-icon {
+  font-size: 40px;
+  margin-top: 10px;
+}
+>>>>>>> developer
