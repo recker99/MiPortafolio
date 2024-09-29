@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
 
-	gtag('config', 'UA-125314689-2');
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125314689-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-125314689-2');
 	</script>
+	
 	<!--
 		Basic
 	-->
 	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-	<title>Ivan bustos / Resumen / CV </title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<meta name="description" content="vCard & Resume Template" />
-	<meta name="keywords" content="vcard, resposnive, resume, personal, card, cv, cards, portfolio" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+			<title>Ivan bustos / Resumen / CV </title>
+				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+			<meta name="description" content="vCard & Resume Template" />
+		<meta name="keywords" content="vcard, resposnive, resume, personal, card, cv, cards, portfolio" />
+	<meta name="" content="" />
 	<!--
 		Load Fonts
 	-->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-	<link rel="stylesheet" href="../../use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="css/styles.min.css" />
-	<link rel="stylesheet" href="css/template-colors/green.css" />
-	<!--[if lt IE 9]>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	
+			<link rel="stylesheet" href="../../use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+			<link rel="stylesheet" href="css/styles.min.css" />
+		<link rel="stylesheet" href="css/template-colors/green.css" />			
+	<link rel="shortcut icon" href="images/favicons/favicon.ico">
+
+		<!-- Incluye el CSS y JS de Leaflet desde el CDN -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
 	
-	<!--
-		Favicons
-	-->
-	<link rel="shortcut icon" href="images/favicons/favicon.ico">	
 </head>
 <body>
 	<div class="page">
@@ -46,7 +48,6 @@
 				Header
 			-->
 			<header class="header">
-
 				<!-- menu -->
 				<div class="top-menu">
 					<ul>
@@ -82,17 +83,22 @@
 						</li>
 					</ul>
 				</div>
+
 			</header>
+
 			<!--
 				Card - Started
 			-->
 			<div class="card-started" id="home-card">
+
 				<!--
 					Profile
 				-->
 				<div class="profile">
+
 					<!-- profile image -->
 					<div class="slide" style="background-image: url(images/bg.jpg);"></div>
+
 					<!-- profile photo -->
 					<div class="image">
 						<img src="images/perfil.jpg" alt="" />
@@ -101,6 +107,7 @@
 					<!-- profile titles -->
 					<div class="title">Ivan Bustos</div>
 					<div class="subtitle">Desarrollador de aplicaciones multiplataforma - Ingeniero Industrial</div>
+
 					<!-- profile socials -->
 					<div class="social">
 						<a target="_blank" href="https://dribbble.com/"><span class="fab fa-dribbble"></span></a>
@@ -108,7 +115,8 @@
 						<a target="_blank" href="https://github.com/"><span class="fab fa-github"></span></a>
 						<a target="_blank" href="https://www.spotify.com/"><span class="fab fa-spotify"></span></a>
 						<a target="_blank" href="https://stackoverflow.com/"><span class="fab fa-stack-overflow"></span></a>
-					</div>				
+					</div>
+					
 					<!-- profile buttons -->
 					<div class="lnks">
 						<a href="#" class="lnk">
@@ -120,32 +128,37 @@
 							<span class="arrow"></span>
 						</a>
 					</div>
+
 				</div>
+
 			</div>
+
 			<!-- 
 				Card - About
 			-->
 			<div class="card-inner animated active" id="about-card">
 				<div class="card-wrap">
+
 					<!-- 
 						About 
 					-->
 					<div class="content about">
+
 						<!-- title -->
 						<div class="title">Acerca de mi</div>
+
 						<!-- content -->
 						<div class="row">
 							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
 								<div class="text-box">
 									<p>
-										Soy desarrollador de aplicaciones multiplataforma, con experiencia en la creación de soluciones eficientes para Android, iOS, Windows y la web. Utilizo tecnologías como React Native, y Xamarin, junto con lenguajes como Java, C#, para desarrollar aplicaciones intuitivas y escalables.
-									<br>			
-										Me especializo en trabajar con metodologías ágiles, colaborando en equipos multidisciplinarios o liderando proyectos. Mi objetivo es crear aplicaciones innovadoras que mejoren la experiencia del usuario y aporten soluciones tecnológicas efectivas.
-									</p>
+										Soy desarrollador de aplicaciones multiplataforma, con experiencia en la creación de soluciones eficientes para Android, iOS, Windows y la web. Utilizo tecnologías como NodeJs, Express, React Native, junto con lenguajes como Java, C#, etc para desarrollar aplicaciones intuitivas y escalables.
+									<br>	
+										Me especializo en trabajar con metodologías ágiles, colaborando en equipos multidisciplinarios o liderando proyectos. Mi objetivo es crear aplicaciones innovadoras que mejoren la experiencia del usuario y aporten soluciones tecnológicas efectivas.									</p>
 								</div>
 								<div class="info-list">
 									<ul>
-										<li><strong>Edad . . . . .</strong> xx</li>
+										<li><strong>Edad . . . . .</strong> XX</li>
 										<li><strong>Residencia . . . . .</strong> CHILE</li>
 										<li><strong>Disponibilidad . . . . .</strong> Inmediata</li>
 										<li><strong>Dirección . . . . .</strong> Santiago, CHILE</li>
@@ -154,53 +167,60 @@
 							</div>
 							<div class="clear"></div>
 						</div>
+
 					</div>
+
 					<!--
 						Services
 					-->
 					<div class="content services">
+
 						<!-- title -->
 						<div class="title">Mis Servicios</div>
+
 						<!-- content -->
 						<div class="row service-items border-line-v">
+
 							<!-- service item -->
 							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
 								<div class="service-item">
 									<div class="icon"><span class="ion ion-code"></span></div>
-									<div class="name">Desarrollo de Aplicaciones Webs, Móviles y de escritorio</div>
+									<div class="name">Desarrollo de Aplicaciones Webs, Móviles y Escritorio</div>
 									<p>
-										Desarrollo aplicaciones nativas y multiplataforma para Android, iOS, web y escritorio, utilizando tecnologías como Ionic, Angular, React Native, WPF, ASP.NET, PHP, Java, etc. Mi objetivo es crear soluciones optimizadas y escalables, garantizando una experiencia fluida y adaptada a cualquier dispositivo o plataforma.
-									</p>
-								</div>
+										Desarrollo aplicaciones nativas y multiplataforma para Android, iOS, web y escritorio, utilizando tecnologías como Flutter, React Native, Xamarin, WPF, ASP.NET, PHP y Java. Mi objetivo es crear soluciones optimizadas y escalables, garantizando una experiencia fluida y adaptada a cualquier dispositivo o plataforma.								</div>
 							</div>
+
 							<!-- service item -->
 							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
 								<div class="service-item">
-									<div class="icon"><span class="material-icons large-icon">api</span></div>
+									<div class="icon"><span class="material-icons large-icon">api</span>
+									</div>
 									<div class="name">Integración de APIs y Servicios Web</div>
 									<p>
 										Ofrezco integración de aplicaciones con APIs y servicios web externos, permitiendo la conectividad con bases de datos, servicios en la nube, y plataformas de terceros. Esto facilita la sincronización de datos en tiempo real y la integración con funciones como geolocalización, pagos en línea, y notificaciones push.
 									</p>
 								</div>
 							</div>
+
 							<!-- service item -->
 							<div class="col col-d-6 col-t-6 col-m-12">
 								<div class="service-item">
-									<div class="icon"><span class="material-icons large-icon">settings</span></div>
+									<div class="icon"><span class="ion ion-settings"></span></div>
 									<div class="name">Optimización y Mantenimiento de Aplicaciones</div>
 									<p>
 										Brindo servicios de optimización de aplicaciones existentes para mejorar su rendimiento, reducir el consumo de recursos y aumentar la estabilidad. Además, ofrezco mantenimiento continuo para asegurar que las aplicaciones sigan funcionando sin problemas y se mantengan actualizadas con las últimas versiones de los sistemas operativos.
 									</p>
 								</div>
 							</div>
+
 							<!-- service item -->
 							<div class="col col-d-6 col-t-6 col-m-12">
 								<div class="service-item">
-									<div class="icon"><span class="material-icons large-icon">smartphone</span></div>
+									<div class="icon"><span class="ion ion-iphone"></span>
+									</div>
 									<div class="name">Desarrollo de Aplicaciones Web Responsivas</div>
 									<p>
 										Desarrollo aplicaciones web que se adaptan perfectamente a dispositivos móviles y de escritorio, utilizando tecnologías modernas como React y Angular. Estas soluciones web son rápidas, seguras y están diseñadas para ofrecer una excelente experiencia de usuario, con acceso a funcionalidades nativas del dispositivo.
-
 									</p>
 								</div>
 							</div>
@@ -211,193 +231,196 @@
 					</div>
 
 					<!-- Price Tables -->
-<div class="content pricing">
-    <!-- title -->
-    <div class="title">Precios</div>
+					<div class="content pricing">
+						<!-- title -->
+						<div class="title">Precios</div>
 
-    <!-- content -->
-    <div class="row pricing-items">
+						<!-- content -->
+						<div class="row pricing-items">
 
-        <!-- Pricing Item: Desarrollo de Aplicaciones Móviles -->
-        <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
-            <div class="pricing-item">
-                <div class="icon"><i class="ion ion-iphone"></i></div>
-                <div class="name">Desarrollo de Aplicaciones Móviles</div>
-                <div class="amount">
-                    <span class="dollar">$</span>
-                    <span class="number">3,000</span>
-                    <span class="period">por proyecto</span>
-                </div>
-                <div class="feature-list">
-                    <ul>
-                        <li>Aplicaciones nativas y multiplataforma</li>
-                        <li>Integración de APIs</li>
-                        <li>Diseño UX/UI personalizado</li>
-                    </ul>
-                </div>
-                <div class="lnks">
-                    <a href="#" class="lnk">
-                        <span class="text">Contratar</span>
-                        <i class="ion ion-arrow-right-c"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
+							<!-- Pricing Item: Desarrollo de Aplicaciones Móviles -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="pricing-item">
+									<div class="icon"><i class="material-icons">smartphone</i></div>
+									<div class="name">Desarrollo de Aplicaciones Móviles</div>
+									<div class="amount">
+										<span class="dollar">$</span>
+										<span class="number">3,000</span>
+										<span class="period">por proyecto</span>
+									</div>
+									<div class="feature-list">
+										<ul>
+											<li>Aplicaciones nativas y multiplataforma</li>
+											<li>Integración de APIs</li>
+											<li>Diseño UX/UI personalizado</li>
+										</ul>
+									</div>
+									<div class="lnks">
+										<a href="#" class="lnk">
+											<span class="text">Contratar</span>
+											<i class="ion ion-arrow-right-c"></i>
+										</a>
+									</div>
+								</div>
+							</div>
 
-        <!-- Pricing Item: Desarrollo de Aplicaciones Web -->
-        <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
-            <div class="pricing-item">
-                <div class="icon"><i class="ion ion-laptop"></i></div>
-                <div class="name">Desarrollo de Aplicaciones Web</div>
-                <div class="amount">
-                    <span class="dollar">$</span>
-                    <span class="number">2,500</span>
-                    <span class="period">por proyecto</span>
-                </div>
-                <div class="feature-list">
-                    <ul>
-                        <li>Diseño responsive</li>
-                        <li>Integración con servicios web</li>
-                        <li>Optimización SEO básica</li>
-                    </ul>
-                </div>
-                <div class="lnks">
-                    <a href="#" class="lnk">
-                        <span class="text">Contratar</span>
-                        <i class="ion ion-arrow-right-c"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
+							<!-- Pricing Item: Desarrollo de Aplicaciones Web -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="pricing-item">
+									<div class="icon"><i class="ion ion-laptop"></i></div>
+									<div class="name">Desarrollo de Aplicaciones Web</div>
+									<div class="amount">
+										<span class="dollar">$</span>
+										<span class="number">2,500</span>
+										<span class="period">por proyecto</span>
+									</div>
+									<div class="feature-list">
+										<ul>
+											<li>Diseño responsive</li>
+											<li>Integración con servicios web</li>
+											<li>Optimización SEO básica</li>
+										</ul>
+									</div>
+									<div class="lnks">
+										<a href="#" class="lnk">
+											<span class="text">Contratar</span>
+											<i class="ion ion-arrow-right-c"></i>
+										</a>
+									</div>
+								</div>
+							</div>
 
-        <!-- Pricing Item: Optimización y Mantenimiento -->
-        <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
-            <div class="pricing-item">
-                <div class="icon"><i class="ion ion-gear-b"></i></div>
-                <div class="name">Optimización y Mantenimiento</div>
-                <div class="amount">
-                    <span class="dollar">$</span>
-                    <span class="number">1,000</span>
-                    <span class="period">por mes</span>
-                </div>
-                <div class="feature-list">
-                    <ul>
-                        <li>Actualizaciones regulares</li>
-                        <li>Optimización de rendimiento</li>
-                        <li>Soporte técnico incluido</li>
-                    </ul>
-                </div>
-                <div class="lnks">
-                    <a href="#" class="lnk">
-                        <span class="text">Contratar</span>
-                        <i class="ion ion-arrow-right-c"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
+							<!-- Pricing Item: Optimización y Mantenimiento -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="pricing-item">
+									<div class="icon"><i class="ion ion-gear-b"></i></div>
+									<div class="name">Optimización y Mantenimiento</div>
+									<div class="amount">
+										<span class="dollar">$</span>
+										<span class="number">1,000</span>
+										<span class="period">por mes</span>
+									</div>
+									<div class="feature-list">
+										<ul>
+											<li>Actualizaciones regulares</li>
+											<li>Optimización de rendimiento</li>
+											<li>Soporte técnico incluido</li>
+										</ul>
+									</div>
+									<div class="lnks">
+										<a href="#" class="lnk">
+											<span class="text">Contratar</span>
+											<i class="ion ion-arrow-right-c"></i>
+										</a>
+									</div>
+								</div>
+							</div>
 
-        <!-- Pricing Item: Desarrollo de Aplicaciones de Escritorio -->
-        <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
-            <div class="pricing-item">
-                <div class="icon"><span class="material-icons">desktop</span></div>
-                <div class="name">Desarrollo de Aplicaciones de Escritorio</div>
-                <div class="amount">
-                    <span class="dollar">$</span>
-                    <span class="number">2,000</span>
-                    <span class="period">por proyecto</span>
-                </div>
-                <div class="feature-list">
-                    <ul>
-                        <li>Aplicaciones para Windows y Mac</li>
-                        <li>Interfaz de usuario intuitiva</li>
-                        <li>Integración con hardware local</li>
-                    </ul>
-                </div>
-                <div class="lnks">
-                    <a href="#" class="lnk">
-                        <span class="text">Contratar</span>
-                        <i class="ion ion-arrow-right-c"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
+							<!-- Pricing Item: Desarrollo de Aplicaciones de Escritorio -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="pricing-item">
+									<div class="icon"><i class="ion ion-desktop"></i></div>
+									<div class="name">Desarrollo de Aplicaciones de Escritorio</div>
+									<div class="amount">
+										<span class="dollar">$</span>
+										<span class="number">2,000</span>
+										<span class="period">por proyecto</span>
+									</div>
+									<div class="feature-list">
+										<ul>
+											<li>Aplicaciones para Windows y Mac</li>
+											<li>Interfaz de usuario intuitiva</li>
+											<li>Integración con hardware local</li>
+										</ul>
+									</div>
+									<div class="lnks">
+										<a href="#" class="lnk">
+											<span class="text">Contratar</span>
+											<i class="ion ion-arrow-right-c"></i>
+										</a>
+									</div>
+								</div>
+							</div>
 
-        <div class="clear"></div>
-    </div>
-</div>
-					<!--
-						Fun Fact
-					-->
-					<div class="content fuct">
+							<div class="clear"></div>
+						</div>
+					</div>
 
-					<!-- title -->
-<div class="title">Datos Interesantes</div>
+				<!-- Fun Fact -->
+				<div class="content fuct">
+					<!-- Contenido adicional si es necesario -->
+				</div>
 
-<!-- content -->
-<div class="row fuct-items">
+						<!-- title -->
+				<div class="title">Datos Interesantes</div>
 
-    <!-- fuct item: Curso en Udemy 1 -->
-    <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-        <div class="fuct-item">
-            <div class="icon"><img src="https://img.icons8.com/color/48/000000/php.png" alt="PHP Icon"/>
-			</div>
-            <div class="name">Curso de PHP8 y MySQL</div>
-            <div class="details">Udemy - Curso practico y completo desde cero.</div>
-        </div>
-    </div>
+				<!-- content -->
+				<div class="row fuct-items">
 
-    <!-- fuct item: Curso en Udemy 2 -->
-    <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-        <div class="fuct-item">
-            <div class="icon"><img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript Icon"/>
-			</div>
-            <div class="name">Curso de JavaScript</div>
-            <div class="details">Udemy - Curso practico y completo desde cero.</div>
-        </div>
-    </div>
+					<!-- fuct item: Curso en Udemy 1 -->
+					<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+						<div class="fuct-item">
+							<div class="icon"><img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript Icon"/>
+							</div>
+							<div class="name">Curso de JavaScripts</div>
+							<div class="details">Udemy - Curso de JavaScripts completo y practico desde cero.</div>
+						</div>
+					</div>
 
-    <!-- fuct item: Curso en Udemy 3 -->
-    <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-        <div class="fuct-item">
-            <div class="icon"><img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap Icon"/>
-			</div>
-            <div class="name">Curso de Bootstrap 5</div>
-            <div class="details">Udemy - Curso completo Bootstrap 5</div>
-        </div>
-    </div>
+					<!-- fuct item: Curso en Udemy 2 -->
+					<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+						<div class="fuct-item">
+							<div class="icon"><img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap Icon"/>
+							</div>
+							<div class="name">Curso de Bootstrap 5</div>
+							<div class="details">Udemy - Aprende a crear aplicaciones web con HTML, CSS y JavaScript</div>
+						</div>
+					</div>
 
-    <!-- fuct item: Curso en Udemy 4 -->
-    <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-        <div class="fuct-item">
-            <div class="icon"><img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL Icon"/>
-			</div>
-            <div class="name">Curso de MySql</div>
-            <div class="details">Udemy - Curso de SQL para la administración de base de datos.</div>
-        </div>
-    </div>
+					<!-- fuct item: Curso en Udemy 3 -->
+					<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+						<div class="fuct-item">
+							<div class="icon"><img src="https://img.icons8.com/color/48/000000/php.png" alt="PHP Icon"/>
+							</div>
+							<div class="name">Curso de PHP8 y MySQL</div>
+							<div class="details">Udemy - Curso completo y practico desde cero de PHP version 8 y MySQL.</div>
+						</div>
+					</div>
 
-	<!-- fuct item: Curso en Udemy 4 -->
-    <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-        <div class="fuct-item">
-            <div class="icon"><img src="https://img.icons8.com/color/48/000000/adobe-xd.png" alt="Adobe XD Icon"/>
-			</div>
-            <div class="name">Curso Adobe xD</div>
-            <div class="details">Udemy - Aprende a crear prototipos profesionales desde 0.</div>
-        </div>
-    </div>
+					<!-- fuct item: Curso en Udemy 4 -->
+					<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+						<div class="fuct-item">
+							<div class="icon"><img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML Icon"/>
+							</div>
+							<div class="name">Curso de Html5</div>
+							<div class="details">Udemy - Curso completo de HTML5, CSS3, Flexbox, practico desde cero.</div>
+						</div>
+					</div>
 
-	<!-- fuct item: Curso en Udemy 4 -->
-    <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-        <div class="fuct-item">
-            <div class="icon"><img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML Icon"/>
-			</div>
-            <div class="name">Curso de Html5</div>
-            <div class="details">Udemy - Curso de Html5, Css3 y flexbox desarrolla sitios web dinamicos.</div>
-        </div>
-    </div>
+					<!-- fuct item: Curso en Udemy 5 -->
+					<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+						<div class="fuct-item">
+							<div class="icon"><img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL Icon"/>
 
-    <div class="clear"></div>
-</div>
+							</div>
+							<div class="name">Curso de MySql</div>
+							<div class="details">Udemy - Curso de SQL para la administración de base de datos.</div>
+						</div>
+					</div>
+
+					<!-- fuct item: Curso en Udemy 6 -->
+					<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+						<div class="fuct-item">
+							<div class="icon"><img src="https://img.icons8.com/color/48/000000/adobe-xd.png" alt="Adobe XD Icon"/>
+
+							</div>
+							<div class="name">Curso de Adobe Xd</div>
+							<div class="details">Udemy - Aprende a crear prototipos profesionales desde cero.</div>
+						</div>
+					</div>
+
+					<div class="clear"></div>
+				</div>
 
 
 					<!--
@@ -558,51 +581,41 @@
 								</div>
 								<div class="resume-items">
 									<div class="resume-item border-line-h active">
-										<div class="date">2018 - Presente</div>
-										<div class="name">Ingeniero Industrial</div>
+										<div class="date">Mar 2024 - Presente</div>
+										<div class="name">Freelance Developer | Varias Empresas(Santiago)</div>
 										<div class="company">Orbita180</div>
 										<p>
-											Formulación y evaluación de proyectos, asesoría estratégica para la toma de decisiones.
+											Proyectos Destacados: 
+											<br>
+											•	Aplicación de Comida Tradicional Chilena, •	Fundación de Adopción de Mascotas. •	Sistema de Gestión de Equipos de Fútbol (C# y WPF). •	Aplicación de Zapatería (ASP.NET Framework).
 
 										</p>
 									</div>
 									<div class="resume-item border-line-h">
-										<div class="date">2018 - Presente</div>
-										<div class="name">Ingeniero Industrial</div>
-										<div class="company">Servicio de Contabilidad e Ingeniería Medina & Asociados</div>
+										<div class="date">Dic 2014 - Dic 2023</div>
+										<div class="name">Ingeniero Proyectista Independiente | Varias Empresas (Concepción)</div>
+										<div class="company">Varias Empresas</div>
 										<p>
-											Elaboración y creación de logotipo corporativo en la iniciación de actividades de los clientes, junto con el apoyo en las asesoramientos a nivel de estrategias de nivel técnico y económico en la contabilidad de costos.
-										</p>
+											•	Diseño y Dibujo de Proyectos: Elaboración y presentación de proyectos técnicos y planos detallados para diversas industrias.
+											•	Consultoría y Asesoramiento: Provisión de asesoría técnica a clientes en la planificación y ejecución de proyectos.
+											•	Revisión de Planos y Especificaciones Técnicas: Evaluación y corrección de planos y especificaciones para garantizar la precisión y viabilidad técnica de los proyectos.
+																					</p>
 									</div>
-									<div class="resume-item">
-										<div class="date">2014 - 2017</div>
-										<div class="name">Ingeniero Proyectista</div>
-										<div class="company">Servicios de Ingeniería INGAM EIRL</div>
-										<p>
-											Desarrollo e interpretación de planos 2D - 3D de Ingeniería Civil, Arquitectura, instalaciones sanitarias, realizando isométricas de aguas y alcantarillado.
-
-										</p>
-									</div>
+						
                                     <div class="resume-item">
 										<div class="date">2005 - 2013</div>
 										<div class="name">Jefe de Control de Producción</div>
 										<div class="company">Plásticos de Ingeniería S.A</div>
 										<p>
-											Encargado de la planificación, gestión de órdenes de trabajo, materiales, seguridad y la capacidad de la ejecución de estas manteniendo una coordinación y comunicación con maestranza, negociación con proveedores y clientes. 
-
-
+											•	Costos y Presupuestos: Realización de costos y presupuestos para el departamento de producción, logrando un uso eficiente de los recursos disponibles.
+											•	Diseño, Desarrollo y Ventas Técnicas: Desarrollo y diseño de proyectos de ingeniería en distintos sectores industriales. A cargo de la venta y asesoría técnica a clientes, brindando soluciones personalizadas para sus necesidades.
+											•	Control de Calidad: Supervisión del control de calidad de los productos, asegurando el cumplimiento de los estándares establecidos y mejorando los procesos de producción.
+											•	Supervisión de Proyectos: Coordinación y supervisión de proyectos multidisciplinarios, asegurando la calidad y cumplimiento de los objetivos en tiempo y forma.
+											•	Equipo Multidisciplinario: Colaboración en equipos diversos para la ejecución exitosa de proyectos complejos, garantizando el cumplimiento de las metas establecidas.
+										
 										</p>
 									</div>
-                                    <div class="resume-item">
-										<div class="date">2000 - 2005</div>
-										<div class="name">Dibujante Proyectista</div>
-										<div class="company">Fundación de Arquitectura Social - Fundar.</div>
-										<p>
-											Elaboración de planos de arquitectura, detalles constructivos, subdivisiones, loteos, etc.- Participación en el desarrollo y en la ejecución del proyecto de construcción del Instituto Profesional Los Leones, ubicado en Santiago Centro. –Control y revisión de documentos  del área, gestionar especificaciones de los clientes, envío de propuestas de adaptación de los diseños.
-
-
-										</p>
-									</div>
+                                
 								</div>
 							</div>
 
@@ -614,11 +627,11 @@
 								</div>
 								<div class="resume-items">
 									<div class="resume-item border-line-h">
-										<div class="date">2019 - 2019</div>
-										<div class="name">Costos para los Negocios</div>
-										<div class="company">Universidad de Chile, Santiago, Chile</div>
+										<div class="date">2022 - 2023</div>
+										<div class="name">Desarrollador de Aplicaciones Multiplataforma</div>
+										<div class="company">Iplacex, Santiago, Chile</div>
 										<p>
-											Curso de costos para los negocios, definición, desarrollo y aplicación de los costos en la toma de decisiones.
+											Carrera que está diseñada para formar profesionales capacitados en el diseño, desarrollo y mantenimiento de aplicaciones para diversas plataformas, incluyendo dispositivos móviles, web y de escritorio.
 										</p>
 									</div>
 									<div class="resume-item border-line-h">
@@ -627,6 +640,7 @@
 										<div class="company">Universidad Tecnológica Metropolitana, Santiago, Chile</div>
 										<p>
 											Ciencias de la ingeniería, Administración de Costos, Evaluación de Proyectos, lenguaje de Programación, Estadistica.
+
 									</div>
 									<div class="resume-item">
 										<div class="date">1995 - 1998</div>
@@ -638,17 +652,23 @@
 									</div>
 								</div>
 							</div>
+
 							<div class="clear"></div>
 						</div>
+
 					</div>
+
 					<!--
 						Skills
 					-->
 					<div class="content skills">
+
 						<!-- title -->
 						<div class="title">Mis Habilidades</div>
+
 						<!-- content -->
 						<div class="row">
+
 							<!-- skill item -->
 							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
 								<div class="skills-list">
@@ -676,65 +696,97 @@
 											</div>
 										</li>
 										<li>
-											<div class="name">Revit</div>
-											<div class="progress">
-												<div class="percentage" style="width:30%;"></div>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<!-- skill item -->
-							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
-								<div class="skills-list">
-									<div class="skill-title border-line-h">
-										<div class="icon"><i class="ion ion-code"></i></div>
-										<div class="name">Otras habilidades</div>
-									</div>
-									<ul>
-										<li class="border-line-h"> 
-											<div class="name">MS Office</div>
-											<div class="progress">
-												<div class="percentage" style="width:85%;"></div>
-											</div>
-										</li>
-										<li class="border-line-h"> 
-											<div class="name">Sistema ERP</div>
-											<div class="progress">
-												<div class="percentage" style="width:65%;"></div>
-											</div>
-										</li>
-										<li class="border-line-h"> 
-											<div class="name">Control de Costos</div>
+											<div class="name">Adobe Xd</div>
 											<div class="progress">
 												<div class="percentage" style="width:70%;"></div>
 											</div>
 										</li>
 										<li>
-											<div class="name">Motivación</div>
+											<div class="name">UX/UI Design</div>
 											<div class="progress">
-												<div class="percentage" style="width:100%;"></div>
+												<div class="percentage" style="width:70%;"></div>
 											</div>
 										</li>
 									</ul>
 								</div>
 							</div>
+
+							<!-- skill item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="skills-list">
+									<div class="skill-title border-line-h">
+										<div class="icon"><i class="ion ion-code"></i></div>
+										<div class="name">Programación</div>
+									</div>
+									<ul>
+										<li class="border-line-h"> 
+											<div class="name">Java</div>
+											<div class="progress">
+												<div class="percentage" style="width:85%;"></div>
+											</div>
+										</li>
+										<li class="border-line-h"> 
+											<div class="name">C#</div>
+											<div class="progress">
+												<div class="percentage" style="width:80%;"></div>
+											</div>
+										</li>
+										<li class="border-line-h"> 
+											<div class="name">JavaScripts</div>
+											<div class="progress">
+												<div class="percentage" style="width:75%;"></div>
+											</div>
+										</li>
+										<li>
+											<div class="name">PHP</div>
+											<div class="progress">
+												<div class="percentage" style="width:80%;"></div>
+											</div>
+										</li>
+										<li>
+											<div class="name">ASP.NET</div>
+											<div class="progress">
+												<div class="percentage" style="width:70%;"></div>
+											</div>
+										</li>
+										<li>
+											<div class="name">IONIC</div>
+											<div class="progress">
+												<div class="percentage" style="width:65%;"></div>
+											</div>
+										</li>
+										<li>
+											<div class="name">React Native</div>
+											<div class="progress">
+												<div class="percentage" style="width:80%;"></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+
 							<div class="clear"></div>
 						</div>
+
 					</div>
+
 				</div>
 			</div>
+
 			<!--
 				Card - Works
 			-->
 			<div class="card-inner" id="works-card">
 				<div class="card-wrap">
+
 					<!--
 						Works
 					-->
 					<div class="content works">
+
 						<!-- title -->
 						<div class="title">Portafolio</div>
+
 						<!-- filters -->
 						<div class="filter-menu filter-button-group">
 							<div class="f_btn active">
@@ -753,25 +805,100 @@
 								<label><input type="radio" name="fl_radio" value="design" />Diseños</label>
 							</div>
 						</div>
+
 						<!-- content -->
 						<div class="row grid-items border-line-v">
+
 							<!-- work item photo -->
 							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
 								<div class="box-item">
 									<div class="image">
-										<a href="images/works/trabajo1.jpg" class="has-popup-image">
-											<img src="images/works/trabajo1.jpg" alt="" />
+										<a href="images/works/JavaScripts/CarritoCompras.jpg" class="has-popup-image">
+											<img src="images/works/JavaScripts/CarritoCompras.jpg" alt="" />
 											<span class="info">
 												<span class="ion ion-image"></span>
 											</span>
 										</a>
 									</div>
 									<div class="desc">
-										<a href="images/works/trabajo1.jpg" class="name has-popup-image">Modelamiento interior depto</a>
+										<a href="images/works/JavaScripts/CarritoCompras.jpg" class="name has-popup-image">Dashboard</a>
 										<div class="category">Imagenes</div>
 									</div>
 								</div>
 							</div>
+
+							<!-- work item photo -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="images/works/bootstrap/dashboard.jpg" class="has-popup-image">
+											<img src="images/works/bootstrap/dashboard.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-image"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="images/works/bootstrap/dashboard.jpg" class="name has-popup-image">Dashboard</a>
+										<div class="category">Imagenes</div>
+									</div>
+								</div>
+							</div>
+							
+							<!-- work item photo -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="images/works/bootstrap/portafolio.jpg" class="has-popup-image">
+											<img src="images/works/bootstrap/portafolio.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-image"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="images/works/bootstrap/portafolio.jpg" class="name has-popup-image">Portafolio</a>
+										<div class="category">Imagenes</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- work item photo -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="images/works/bootstrap/redSocial.jpg" class="has-popup-image">
+											<img src="images/works/bootstrap/redSocial.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-image"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="images/works/bootstrap/redSocial.jpg" class="name has-popup-image">Sitio RedSocial</a>
+										<div class="category">Imagenes</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- work item photo -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="images/works/bootstrap/comidaChilena.jpg" class="has-popup-image">
+											<img src="images/works/bootstrap/comidaChilena.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-image"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="images/works/bootstrap/comidaChilena.jpg" class="name has-popup-image">Sitio Web de Comida Rápida</a>
+										<div class="category">Imagenes</div>
+									</div>
+								</div>
+							</div>
+
 							<!-- work item video -->
 							<div class="col col-d-6 col-t-6 col-m-12 grid-item video border-line-h">
 								<div class="box-item">
@@ -789,6 +916,43 @@
 									</div>
 								</div>
 							</div>
+
+							<!-- work item photo -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="images/works/JavaScripts/AppGastos.jpg" class="has-popup-image">
+											<img src="images/works/JavaScripts/AppGastos.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-image"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="images/works/JavaScripts/AppGastos.jpg" class="name has-popup-image">App Gastos</a>
+										<div class="category">Imagenes</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- work item video -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item video border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="C:\My Web Sites\van\beshley.com\vcard\images\works\bomba3d.mp4" class="has-popup-video">
+											<img src="images/works/bomba3d.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-videocamera"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="C:\My Web Sites\van\beshley.com\vcard\images\works\bomba3d.mp4" class="name has-popup-video">Bomba de Agua</a>
+										<div class="category">Video</div>
+									</div>
+								</div>
+							</div>
+
 							<!-- work item music -->
 							<div class="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h">
 								<div class="box-item">
@@ -806,61 +970,48 @@
 									</div>
 								</div>
 							</div>
+
 							<!-- work item design -->
 							<div class="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h">
 								<div class="box-item">
 									<div class="image">
 										<a href="#popup-1" class="has-popup-media">
-											<img src="images/works/work4.jpg" alt="" />
+											<img src="images/works/JavaScripts/SitioViajes.jpg" alt="" />
 											<span class="info">
 												<span class="ion ion-images"></span>
 											</span>
 										</a>
 									</div>
 									<div class="desc">
-										<a href="#popup-1" class="name has-popup-media">Mobile Application</a>
+										<a href="#popup-1" class="name has-popup-media">Sitio Web de Viajes</a>
 										<div class="category">Design</div>
 									</div>
 									<div id="popup-1" class="popup-box mfp-fade mfp-hide">
 										<div class="content">
 											<div class="image">
-												<img src="images/works/work4.jpg" alt="">
+												<img src="images/works/JavaScripts/SitioViajes.jpg" alt="">
 											</div>
 											<div class="desc">
 												<div class="post-box">
-													<h1>Mobile Application</h1>						
+													<h1>Sitio Web de Viajes</h1>						
 													<div class="blog-detail">Design</div>
 													<div class="blog-content">
 														<p>
-															So striking at of to welcomed resolved. Northward by described up household therefore 
-															attention. Excellence decisively nay man yet impression for contrasted remarkably.
+															Sitio web de viajes diseñado con javascripts.
 														</p>
 														<p>
-															Forfeited you engrossed but gay sometimes explained. Another as studied it to evident. 
-															Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining 
-															determine few her two cordially admitting old.
-														</p>
-														<blockquote>
-															Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia 
-															Curae; Pellentesque suscipit.
-														</blockquote>
-														<p>
-															Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh 
-															removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on. 
-															Increasing sufficient everything men him admiration unpleasing sex.
+															Las carecteristicas de este sitio web es que puedes ir agregando tus fotografias de cada
+															viaje separadas por continente, ademas de verlas mediante un carrusel de imagenes 
 														</p>
 														<ul class="list-style">
-															<li>Greatest properly off ham exercise all.</li>
-															<li>Unsatiable invitation its possession nor off.</li>
-															<li>All difficulty estimating unreserved increasing the solicitude.</li>
+															<li>Organizador de fotografias por continente.</li>
+															<li>Carrusel para desplegar imagenes.</li>
+															<li>Sitio Responsivo.</li>
 														</ul>
-														<p>
-															Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means 
-															up civil do an offer wound of.
-														</p>
+
 													</div>
 													<a href="#" class="button">
-														<span class="text">View Project</span>
+														<span class="text">Ver Proyecto</span>
 														<span class="arrow"></span>
 													</a>
 												</div>
@@ -869,23 +1020,25 @@
 									</div>
 								</div>
 							</div>
+
 							<!-- work item photo -->
 							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
 								<div class="box-item">
 									<div class="image">
-										<a href="images/works/work5.jpg" class="has-popup-image">
-											<img src="images/works/work5.jpg" alt="" />
+										<a href="images/works/JavaScripts/transfer1.jpg" class="has-popup-image">
+											<img src="images/works/JavaScripts/transfer1.jpg" alt="" />
 											<span class="info">
 												<span class="ion ion-image"></span>
 											</span>
 										</a>
 									</div>
 									<div class="desc">
-										<a href="images/works/work5.jpg" class="name has-popup-image">Gereal Travels</a>
+										<a href="images/works/JavaScripts/transfer1.jpg" class="name has-popup-image">Formulario Transferencia</a>
 										<div class="category">Photo</div>
 									</div>
 								</div>
 							</div>
+
 							<!-- work item music -->
 							<div class="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h">
 								<div class="box-item">
@@ -903,6 +1056,7 @@
 									</div>
 								</div>
 							</div>
+
 							<!-- work item video -->
 							<div class="col col-d-6 col-t-6 col-m-12 grid-item video border-line-h">
 								<div class="box-item">
@@ -920,61 +1074,55 @@
 									</div>
 								</div>
 							</div>
+
 							<!-- work item design -->
 							<div class="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h">
 								<div class="box-item">
 									<div class="image">
 										<a href="#popup-2" class="has-popup-media">
-											<img src="images/works/work7.jpg" alt="" />
+											<img src="images/works/JavaScripts/AppPeliculas.jpg" alt="" />
 											<span class="info">
 												<span class="ion ion-images"></span>
 											</span>
 										</a>
 									</div>
 									<div class="desc">
-										<a href="#popup-2" class="name has-popup-media">Social Website</a>
+										<a href="#popup-2" class="name has-popup-media">App Peliculas</a>
 										<div class="category">Design</div>
 									</div>
 									<div id="popup-2" class="popup-box mfp-fade mfp-hide">
 										<div class="content">
 											<div class="image">
-												<img src="images/works/work7.jpg" alt="">
+												<img src="images/works/JavaScripts/AppPeliculas.jpg" alt="">
 											</div>
 											<div class="desc">
 												<div class="post-box">
-													<h1>Mobile Application</h1>						
+													<h1>App Peliculas</h1>						
 													<div class="blog-detail">Design</div>
 													<div class="blog-content">
 														<p>
-															So striking at of to welcomed resolved. Northward by described up household therefore 
-															attention. Excellence decisively nay man yet impression for contrasted remarkably.
+															Desarrollo de una aplicación de peliculas tipo Netflix.
 														</p>
 														<p>
-															Forfeited you engrossed but gay sometimes explained. Another as studied it to evident. 
-															Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining 
-															determine few her two cordially admitting old.
+															Las caracteristicas de esta aplicaciones que es responsiva y que ademas esta conectada
+															a una API donde se esta actualizando constantemente de las peliculas estrenadas en los cines.
 														</p>
 														<blockquote>
-															Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia 
-															Curae; Pellentesque suscipit.
+															Esta aplicación esta desarrollada puramente con javaScripts, nodeJS, rollup, etc.
 														</blockquote>
 														<p>
-															Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh 
-															removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on. 
-															Increasing sufficient everything men him admiration unpleasing sex.
+															Las principales funcionalidades son:
 														</p>
 														<ul class="list-style">
-															<li>Greatest properly off ham exercise all.</li>
-															<li>Unsatiable invitation its possession nor off.</li>
-															<li>All difficulty estimating unreserved increasing the solicitude.</li>
+															<li>Busqueda Avanzada.</li>
+															<li>Interfaz responsiva.</li>
+															<li>Actualización constante.</li>
+															<li>Filtro por genero y año.</li>
+															<li>Detalle de peliculas.</li>
 														</ul>
-														<p>
-															Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means 
-															up civil do an offer wound of.
-														</p>
 													</div>
 													<a href="#" class="button">
-														<span class="text">View Project</span>
+														<span class="text">Ver Proyecto</span>
 														<span class="arrow"></span>
 													</a>
 												</div>
@@ -983,6 +1131,7 @@
 									</div>
 								</div>
 							</div>
+
 							<div class="clear"></div>
 						</div>
 
@@ -990,19 +1139,24 @@
 
 				</div>
 			</div>
+
 			<!--
 				Card - Blog
 			-->
 			<div class="card-inner blog" id="blog-card">
 				<div class="card-wrap">
+
 					<!--
 						Blog
 					-->
 					<div class="content blog">
+
 						<!-- title -->
 						<div class="title">Latest Posts</div>
+
 						<!-- content -->
 						<div class="row border-line-v">
+
 							<!-- blog item -->
 							<div class="col col-d-12 col-t-12 col-m-12 border-line-h">
 								<div class="box-item">
@@ -1021,6 +1175,7 @@
 									</div>
 								</div>
 							</div>
+
 							<!-- blog item -->
 							<div class="col col-d-12 col-t-12 col-m-12 border-line-h">
 								<div class="box-item">
@@ -1039,6 +1194,7 @@
 									</div>
 								</div>
 							</div>
+
 							<!-- blog item -->
 							<div class="col col-d-12 col-t-12 col-m-12 border-line-h">
 								<div class="box-item">
@@ -1057,29 +1213,37 @@
 									</div>
 								</div>
 							</div>
+
 							<div class="clear"></div>
 						</div>
+
 					</div>
+
 				</div>
 			</div>
+
 			<!--
 				Card - Contacts
 			-->
 			<div class="card-inner contacts" id="contacts-card">
 				<div class="card-wrap">
+
 					<!--
 						Conacts Info
 					-->
 					<div class="content contacts">
+
 						<!-- title -->
 						<div class="title">Ubicación</div>
+
 						<!-- content -->
 						<div class="row">
 							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
-								<div class="map" id="map"></div>
+								<!-- Mapa con Leaflet -->
+								<div id="map" style="height: 400px;"></div>
 								<div class="info-list">
 									<ul>
-										<li><strong>Address . . . . .</strong> Concepción, CHILE</li>
+										<li><strong>Address . . . . .</strong> Santiago, CHILE</li>
 										<li><strong>Email . . . . .</strong> ivan.bustos.h@gmail.com</li>
 										<li><strong>Phone . . . . .</strong> +56 955366462</li>
 										<li><strong>Disponibilidad . . . . .</strong> Inmediata</li>
@@ -1088,13 +1252,17 @@
 							</div>
 							<div class="clear"></div>
 						</div>
+
 					</div>
+
 					<!--
 						Contact Form
 					-->
 					<div class="content contacts">
+
 						<!-- title -->
 						<div class="title">Formulario de Contacto</div>
+
 						<!-- content -->
 						<div class="row">
 							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
@@ -1131,16 +1299,23 @@
 							</div>
 							<div class="clear"></div>
 						</div>
+
 					</div>
+
 				</div>
 			</div>
+
 		</div>
-</div>	
+</div>
+	
 	<!--
 		jQuery Scripts
 	-->
 	<script async defer src="https://www.google.cl/maps/search/lorenzo+arenas.+chile/@-36.8117389,-73.0673989,14z"></script>
 	<script src="js/scripts.min.js"></script>
+	<script src="js/leaflet.js"></script>
 	
 </body>
+
+<!-- Mirrored from beshley.com/vcard/index-gradient.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Jul 2019 17:24:01 GMT -->
 </html>
