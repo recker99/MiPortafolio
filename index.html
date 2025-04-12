@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Portafolio y currículum" />
+    <meta name="keywords" content="tarjeta de presentación, responsive, currículum, personal, tarjeta, CV, tarjetas, portafolio" />
+    <title>Portafolio Ivan Bustos</title>
+
+     <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125314689-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-125314689-2');
+  </script>
+
+  <!-- Fonts and Icons -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/styles.min.css" />
+  <link rel="stylesheet" href="css/estilos.css" />
+  <link rel="shortcut icon" href="img/favicons/favicon.ico">
+
+  <!-- Leaflet CSS and JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+    <div class="page">
+        <div class="background gradient"></div>
+          <!-- Container -->
+          <div class="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+              <!-- Header -->
+              <header class="header">
+                  <!-- menu -->
+                  <div class="top-menu">
+                      <ul>
+                          <li class="active">
+                              <a href="#about-card">
+                                  <span class="icon ion-person"></span>
+                                  <span class="link">Acerca de mi</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#resume-card">
+                                  <span class="icon ion-android-list"></span>
+                                  <span class="link">Resumen</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#works-card">
+                                  <span class="icon ion-paintbrush"></span>
+                                  <span class="link">portafolio</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#blog-card">
+                                  <span class="icon ion-chatbox-working"></span>
+                                  <span class="link">Blog</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#contacts-card">
+                                  <span class="icon ion-at"></span>
+                                  <span class="link">Contacto</span>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+              </header>
+
+              <!--Card - Started-->
+			<div class="card-started" id="home-card">
+				<!--Profile-->
+				<div class="profile">
+					<!-- profile image -->
+					<div class="slide" style="background-image: url(img/bg.jpg);"></div>
+					<!-- profile photo -->
+					<div class="image">
+						<img src="img/perfil.jpg" alt="" />
+					</div>
+					<!-- profile titles -->
+					<div class="title">Iván Bustos</div>
+					<div class="subtitle">Desarrollador de aplicaciones multiplataforma - Ingeniero Industrial</div>
+					<!-- profile socials -->
+					<div class="social">
+                        <a target="_blank" href="https://www.linkedin.com/"><span class="fab fa-linkedin"></span></a>
+                        <a target="_blank" href="https://www.instagram.com/"><span class="fab fa-instagram"></span></a>
+                        <a target="_blank" href="https://www.facebook.com/"><span class="fab fa-facebook"></span></a>
+                        <a target="_blank" href="https://twitter.com/"><span class="fa-brands fa-x-twitter"></span></a>
+                        <a target="_blank" href="https://github.com/"><span class="fab fa-github"></span></a>
+                    </div>
+					<!-- profile buttons -->
+					<div class="lnks">
+						<a href="#" class="lnk">
+							<span class="text">Dercargar CV</span>
+							<span class="ion ion-archive"></span>
+						</a>
+						<a href="#" class="lnk discover">
+							<span class="text">Contactame</span>
+							<span class="arrow"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+            <!-- Card - About-->
+			<div class="card-inner animated active" id="about-card">
+				<div class="card-wrap">
+					<!-- About -->
+					<div class="content about">
+						<!-- title -->
+						<div class="title">Acerca de mi</div>
+						<!-- content -->
+						<div class="row">
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="text-box" style="text-align: justify;">
+                                    <p>
+                                        Soy ingeniero industrial y desarrollador de aplicaciones multiplataforma, con amplia experiencia en el diseño y optimización de sistemas tecnológicos para Android, iOS, Windows y la web. 
+                                        Combino conocimientos en gestión de procesos industriales con habilidades en desarrollo de software para crear soluciones eficientes y escalables que mejoren la productividad y la experiencia del usuario.
+                                        <br><br>
+                                        Trabajo con tecnologías como Node.js, Express, React Native, así como lenguajes como Java y C#. Además, aplico metodologías ágiles para la planificación y ejecución de proyectos, asegurando resultados efectivos en entornos dinámicos y colaborativos.
+                                        <br><br>
+                                        Mi objetivo es integrar la ingeniería industrial con el desarrollo tecnológico para impulsar la innovación, optimizar procesos y ofrecer soluciones digitales que respondan a los desafíos del mercado actual.
+                                    </p>
+                                </div>
+								<div class="info-list">
+                                    <ul>
+                                        <li><strong>Ubicación . . . . .</strong> Chile</li>
+                                        <li><strong>Disponibilidad . . . . .</strong> Inmediata</li>
+                                        <li><strong>Contacto . . . . .</strong>Disponible bajo solicitud</li>
+                                    </ul>
+                                </div>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+                        <!-- Sección de Servicios -->
+                        <div class="content services">
+                            <div class="title">Mis Servicios</div>
+                            <div class="row service-items border-line-v">
+                                <!-- Desarrollo de Aplicaciones Web, Móviles y Escritorio -->
+                                <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+                                    <div class="service-item">
+                                        <div class="icon"><span class="ion ion-code"></span></div>
+                                        <div class="name">Desarrollo de Software Multiplataforma</div>
+                                        <p>
+                                            Diseño y desarrollo de aplicaciones para Android, web y escritorio, combinando conocimientos en ingeniería industrial con tecnologías avanzadas tales como React Native, WPF, ASP.NET, PHP, etc.
+                                            Mi enfoque es crear soluciones escalables y eficientes que optimicen procesos empresariales y mejoren la experiencia del usuario.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Integración de APIs y Servicios Web -->
+                                <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+                                    <div class="service-item">
+                                        <div class="icon"><span class="material-icons large-icon">api</span></div>
+                                        <div class="name">Integración de Sistemas y Servicios Web</div>
+                                        <p>
+                                            Conecto aplicaciones con APIs y plataformas externas para mejorar la funcionalidad y conectividad con bases de datos, servicios en la nube y herramientas de terceros.
+                                            Implemento soluciones seguras y optimizadas para geolocalización, pagos en línea, automatización de procesos y comunicación en tiempo real.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Optimización y Mantenimiento de Aplicaciones -->
+                                <div class="col col-d-6 col-t-6 col-m-12">
+                                    <div class="service-item">
+                                        <div class="icon"><span class="ion ion-settings"></span></div>
+                                        <div class="name">Optimización y Mantenimiento de Software</div>
+                                        <p>
+                                            Realizo mejoras en aplicaciones existentes para optimizar su rendimiento, reducir costos operativos y garantizar la estabilidad en distintos entornos.
+                                            Ofrezco mantenimiento preventivo y actualizaciones continuas para adaptarse a los avances tecnológicos y las necesidades del mercado.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Desarrollo de Aplicaciones Web Responsivas -->
+                                <div class="col col-d-6 col-t-6 col-m-12">
+                                    <div class="service-item">
+                                        <div class="icon"><span class="ion ion-iphone"></span></div>
+                                        <div class="name">Desarrollo de Aplicaciones Web Responsivas</div>
+                                        <p>
+                                            Diseño sitios web modernos y adaptativos que ofrecen una navegación fluida en dispositivos móviles y de escritorio.
+                                            Utilizo frameworks avanzados como React y Angular para garantizar rapidez, seguridad y acceso a funcionalidades interactivas.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sección de Servicios Ofrecidos -->
+                        <div class="content pricing">
+                            <div class="title">Servicios Disponibles</div>
+                            <div class="row pricing-items">
+                                <!-- Desarrollo de Aplicaciones Móviles -->
+                                <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                    <div class="pricing-item">
+                                        <div class="icon"><i class="material-icons">smartphone</i></div>
+                                        <div class="name">Desarrollo de Aplicaciones Móviles</div>
+                                        <div class="feature-list">
+                                            <ul>
+                                                <li>Aplicaciones nativas y multiplataforma para Android e iOS.</li>
+                                                <li>Integración con APIs y servicios externos.</li>
+                                                <li>Diseño UX/UI personalizado para mejorar la experiencia del usuario.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="lnks">
+                                            <a href="#" class="lnk">
+                                                <span class="text">Más información</span>
+                                                <i class="ion ion-arrow-right-c"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Desarrollo de Aplicaciones Web -->
+                                <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                    <div class="pricing-item">
+                                        <div class="icon"><i class="ion ion-laptop"></i></div>
+                                        <div class="name">Desarrollo de Aplicaciones Web</div>
+                                        <div class="feature-list">
+                                            <ul>
+                                                <li>Sitios web adaptativos y optimizados.</li>
+                                                <li>Integración con servicios en la nube.</li>
+                                                <li>Optimización SEO para mejor visibilidad en buscadores.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="lnks">
+                                            <a href="#" class="lnk">
+                                                <span class="text">Más información</span>
+                                                <i class="ion ion-arrow-right-c"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Optimización y Mantenimiento -->
+                                <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                    <div class="pricing-item">
+                                        <div class="icon"><i class="ion ion-gear-b"></i></div>
+                                        <div class="name">Optimización y Mantenimiento</div>
+                                        <div class="feature-list">
+                                            <ul>
+                                                <li>Mejora del rendimiento y eficiencia de aplicaciones.</li>
+                                                <li>Actualizaciones periódicas y mantenimiento preventivo.</li>
+                                                <li>Soporte técnico para garantizar estabilidad y seguridad.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="lnks">
+                                            <a href="#" class="lnk">
+                                                <span class="text">Más información</span>
+                                                <i class="ion ion-arrow-right-c"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <!-- Desarrollo de Aplicaciones de Escritorio -->
+                                    <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                        <div class="pricing-item">
+                                            <div class="icon"><i class="ion ion-desktop"></i></div>
+                                            <div class="name">Desarrollo de Aplicaciones de Escritorio</div>
+                                            <div class="feature-list">
+                                                <ul>
+                                                    <li>Software para Windows y Mac con interfaz intuitiva.</li>
+                                                    <li>Integración con hardware y sistemas locales.</li>
+                                                    <li>Automatización de procesos y gestión eficiente de datos.</li>
+                                                </ul>
+                                            </div>
+                                            <div class="lnks">
+                                                <a href="#" class="lnk">
+                                                    <span class="text">Más información</span>
+                                                    <i class="ion ion-arrow-right-c"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                            <!-- Fun Fact -->
+                        <div class="content fuct">
+                            <!-- title -->
+                            <div class="title">Datos Interesantes</div>
+                            <!-- content -->
+                            <div class="row fuct-items">
+                                <!-- fuct item: Curso en Udemy 1 -->
+                                <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                                    <div class="fuct-item">
+                                        <div class="icon"><img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript Icon"/>
+                                        </div>
+                                        <div class="name">Curso de JavaScripts</div>
+                                        <div class="details">Udemy - Curso de JavaScripts completo y practico desde cero.</div>
+                                    </div>
+                                </div>
+                                <!-- fuct item: Curso en Udemy 2 -->
+                                <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                                    <div class="fuct-item">
+                                        <div class="icon"><img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap Icon"/>
+                                        </div>
+                                        <div class="name">Curso de Bootstrap 5</div>
+                                        <div class="details">Udemy - Aprende a crear aplicaciones web con HTML, CSS y JavaScript</div>
+                                    </div>
+                                </div>
+                                <!-- fuct item: Curso en Udemy 3 -->
+                                <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                                    <div class="fuct-item">
+                                        <div class="icon"><img src="https://img.icons8.com/color/48/000000/php.png" alt="PHP Icon"/>
+                                        </div>
+                                        <div class="name">Curso de PHP8 y MySQL</div>
+                                        <div class="details">Udemy - Curso completo y practico desde cero de PHP version 8 y MySQL.</div>
+                                    </div>
+                                </div>
+                                <!-- fuct item: Curso en Udemy 4 -->
+                                <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                                    <div class="fuct-item">
+                                        <div class="icon"><img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML Icon"/>
+                                        </div>
+                                        <div class="name">Curso de Html5</div>
+                                        <div class="details">Udemy - Curso completo de HTML5, CSS3, Flexbox, practico desde cero.</div>
+                                    </div>
+                                </div>
+                                <!-- fuct item: Curso en Udemy 5 -->
+                                <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                                    <div class="fuct-item">
+                                        <div class="icon"><img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL Icon"/>
+                                        </div>
+                                        <div class="name">Curso de MySql</div>
+                                        <div class="details">Udemy - Curso de SQL para la administración de base de datos.</div>
+                                    </div>
+                                </div>
+                                <!-- fuct item: Curso en Udemy 6 -->
+                                <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                                    <div class="fuct-item">
+                                        <div class="icon"><img src="https://img.icons8.com/color/48/000000/adobe-xd.png" alt="Adobe XD Icon"/>
+                                        </div>
+                                        <div class="name">Curso de Adobe Xd</div>
+                                        <div class="details">Udemy - Aprende a crear prototipos profesionales desde cero.</div>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <!--Clientes-->
+                        <div class="content clients">
+                            <!-- title -->
+                            <div class="title">Clientes</div>
+                            <!-- Contenedor del carrusel -->
+                            <div class="client-carousel swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="img/clientes/client_1.png" alt="Cliente 1"></div>
+                                    <div class="swiper-slide"><img src="img/clientes/client_2.png" alt="Cliente 2"></div>
+                                    <div class="swiper-slide"><img src="img/clientes/client_3.png" alt="Cliente 3"></div>
+                                    <div class="swiper-slide"><img src="img/clientes/client_4.png" alt="Cliente 4"></div>
+                                </div>
+                                <!-- Flechas de navegación -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta de Resumen -->
+            <div class="card-inner" id="resume-card">
+                <div class="card-wrap">
+                    <!-- Sección de Resumen -->
+                    <div class="content resume">
+                        <div class="title">Resumen</div>
+                        <div class="row">
+                            <!-- Experiencia Laboral -->
+                            <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div class="resume-title border-line-h">
+                                    <div class="icon"><i class="ion ion-briefcase"></i></div>
+                                    <div class="name">Experiencia Profesional</div>
+                                </div>
+                                <div class="resume-items">
+                                    <!-- Cargo Actual -->
+                                    <div class="resume-item border-line-h active">
+                                        <div class="date">Mar 2024 - Presente</div>
+                                        <div class="name">Freelance Developer | Varias Empresas (Santiago)</div>
+                                        <div class="company">Orbita180</div>
+                                        <p>
+                                            •	Optimización de Procesos y Desarrollo de Herramientas Digitales.
+                                            •	Automatización y Digitalización.
+                                            •	Análisis y Reducción de Costos.
+                                            •	Gestión y Desarrollo de Proyectos Tecnológicos.
+                                            
+                                            <ul>
+                                                <li>•	Calculadora de Corte de Placas para Viviendas (Javascript, HTML5, CSS3)</li>
+                                                    Creación de una herramienta de optimización para calcular cortes precisos de placas de revestimiento, reduciendo desperdicios y tiempos de trabajo.
+                                                <li>•	Sistema de Venta de Libros (PHP8, MySQL, HTML5, CSS3, JavaScript)</li>
+                                                    Plataforma e-commerce con sistema de administración de productos, usuarios y ventas.
+                                                <li>•	Aplicación de Comida Tradicional Chilena (PHP8, MySQL, HTML5, CSS3, JavaScript)</li>
+                                                    Desarrollo de un sitio web para la promoción gastronómica, con funcionalidades de gestión de contenido y comentarios de usuarios.
+                                                <li>•	Sistema de Gestión de Equipos de Fútbol (C#, WPF, Entity Framework 4.8, SQL Server, Linq)</li>
+                                                    Aplicación de escritorio con estructura MVVM para administrar equipos, jugadores y estadísticas.
+                                                <li>•	Plataforma para Fundación de Adopción de Mascotas (Bootstrap 4/5, PHP, MySQL)</li>
+                                                    Portal web con sistema de registro y gestión de adopciones.
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <!-- Experiencia Previa -->
+                                    <div class="resume-item border-line-h">
+                                        <div class="date">Dic 2014 - Dic 2023</div>
+                                        <div class="name">Ingeniero Proyectista Independiente | Varias Empresas (Concepción)</div>
+                                        <div class="company">Freelance</div>
+                                        <p>
+                                            <ul>
+                                                <li>•	Gestión y Ejecución de Proyectos: Planificación, desarrollo y supervisión de proyectos técnicos para diversas industrias, asegurando el cumplimiento de plazos, presupuestos y normativas vigentes.</li>
+                                                <li>•	Consultoría y Asesoría Estratégica: Brindé apoyo a empresas y clientes en la toma de decisiones estratégicas, optimización de procesos y mejora de la eficiencia operativa en proyectos de ingeniería.</li>
+                                                <li>•	Control de Costos y Recursos: Administración de presupuestos, materiales y tiempos de ejecución, garantizando la viabilidad y sostenibilidad económica de cada proyecto.</li>
+                                                <li>•	Relaciones Institucionales y Gestión Comercial: Coordinación con clientes, proveedores y entidades reguladoras para asegurar el cumplimiento de normativas y establecer acuerdos estratégicos beneficiosos.</li>
+                                                <li>•	Supervisión y Revisión Técnica: Evaluación de planos, especificaciones y normativas para asegurar la precisión y viabilidad de los proyectos, reduciendo riesgos y costos asociados.</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="resume-item">
+                                        <div class="date">2005 - 2013</div>
+                                        <div class="name">Jefe de Control de Producción</div>
+                                        <div class="company">Plásticos de Ingeniería S.A</div>
+                                        <p>
+                                            <ul>
+                                                <li>•	Gestión Administrativa y Presupuestaria: Planificación y administración de costos y presupuestos del departamento de producción, optimizando el uso de recursos y asegurando la rentabilidad de los proyectos.</li>
+                                                <li>•	Planificación y Coordinación de Proyectos: Supervisión y ejecución de proyectos estratégicos, garantizando el cumplimiento de plazos, objetivos y normativas internas.</li>
+                                                <li>•	Optimización de Procesos y Control de Calidad: Implementación de mejoras en los procedimientos administrativos y operativos, asegurando el cumplimiento de estándares de calidad y eficiencia en la producción.</li>
+                                                <li>•	Relaciones Institucionales y Gestión de Clientes: Coordinación con clientes y proveedores para la gestión de contratos, negociaciones y cumplimiento de acuerdos comerciales.</li>
+                                                <li>•	Supervisión y Liderazgo de Equipos: Gestión de equipos multidisciplinarios, promoviendo un ambiente colaborativo y orientado a resultados, asegurando el éxito de los proyectos y el cumplimiento de objetivos organizacionales.</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Educación -->
+                            <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div class="resume-title border-line-h">
+                                    <div class="icon"><i class="ion ion-university"></i></div>
+                                    <div class="name">Educación</div>
+                                </div>
+                                <div class="resume-items">
+                                    <div class="resume-item border-line-h">
+                                        <div class="date">2022 - 2023</div>
+                                        <div class="name">Desarrollador de Aplicaciones Multiplataforma</div>
+                                        <div class="company">Iplacex, Santiago, Chile</div>
+                                        <p>Especialización en el diseño, desarrollo y mantenimiento de aplicaciones para diversas plataformas.</p>
+                                    </div>
+                                    <div class="resume-item border-line-h">
+                                        <div class="date">2006 - 2009</div>
+                                        <div class="name">Ingeniería Industrial</div>
+                                        <div class="company">Universidad Tecnológica Metropolitana, Santiago, Chile</div>
+                                        <p>Formación en administración, costos, evaluación de proyectos y programación.</p>
+                                    </div>
+                                    <div class="resume-item">
+                                        <div class="date">1995 - 1998</div>
+                                        <div class="name">Dibujante Proyectista</div>
+                                        <div class="company">Universidad Tecnológica Metropolitana, Santiago, Chile</div>
+                                        <p>Especialización en dibujo técnico, Autocad y cubicación de proyectos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sección de Habilidades -->
+                    <div class="content skills">
+                        <div class="title">Mis Habilidades</div>
+                        <div class="row">
+
+                            <!-- Habilidades de Diseño -->
+                            <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div class="skills-list">
+                                    <div class="skill-title border-line-h">
+                                        <div class="icon"><i class="ion ion-easel"></i></div>
+                                        <div class="name">Diseño y Modelado</div>
+                                    </div>
+                                    <ul>
+                                        <li class="border-line-h"><div class="name">Autocad 2D - 3D</div><div class="progress"><div class="percentage" style="width:90%;"></div></div></li>
+                                        <li class="border-line-h"><div class="name">SketchUp</div><div class="progress"><div class="percentage" style="width:50%;"></div></div></li>
+                                        <li class="border-line-h"><div class="name">Photoshop</div><div class="progress"><div class="percentage" style="width:70%;"></div></div></li>
+                                        <li><div class="name">Revit</div><div class="progress"><div class="percentage" style="width:40%;"></div></div></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Habilidades de Programación -->
+                            <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div class="skills-list">
+                                    <div class="skill-title border-line-h">
+                                        <div class="icon"><i class="ion ion-code"></i></div>
+                                        <div class="name">Lenguajes de Programación</div>
+                                    </div>
+                                    <ul>
+                                        <li class="border-line-h"><div class="name">Java</div><div class="progress"><div class="percentage" style="width:85%;"></div></div></li>
+                                        <li class="border-line-h"><div class="name">C#</div><div class="progress"><div class="percentage" style="width:80%;"></div></div></li>
+                                        <li class="border-line-h"><div class="name">JavaScript</div><div class="progress"><div class="percentage" style="width:75%;"></div></div></li>
+                                        <li class="border-line-h"><div class="name">PHP</div><div class="progress"><div class="percentage" style="width:70%;"></div></div></li>
+                                        <li class="border-line-h"><div class="name">HTML5, CSS3</div><div class="progress"><div class="percentage" style="width:80%;"></div></div></li>
+
+                                        <li><div class="name">SQL (MySQL, SQL SERVER)</div><div class="progress"><div class="percentage" style="width:75%;"></div></div></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Frameworks y Tecnologías -->
+                            <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div class="skills-list">
+                                    <div class="skill-title border-line-h">
+                                        <div class="icon"><i class="ion ion-code"></i></div>
+                                        <div class="name">Frameworks y Tecnologías</div>
+                                    </div>
+                                    <ul>
+                                        <li class="border-line-h"><div class="name">React.js</div><div class="progress"><div class="percentage" style="width:80%;"></div></div></li>
+                                        <li class="border-line-h"><div class="name">Angular</div><div class="progress"><div class="percentage" style="width:70%;"></div></div></li>
+                                        <li class="border-line-h"><div class="name">ASP.NET</div><div class="progress"><div class="percentage" style="width:75%;"></div></div></li>
+                                        <li class="border-line-h"><div class="name">Node.js</div><div class="progress"><div class="percentage" style="width:85%;"></div></div></li>
+                                        <li><div class="name">Ionic</div><div class="progress"><div class="percentage" style="width:65%;"></div></div></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Card - Works -->
+            <div class="card-inner" id="works-card">
+                <div class="card-wrap">
+                    <!-- Works -->
+                    <div class="content works">
+                        <!-- title -->
+                        <div class="title">Portafolio</div>
+                        <!-- filters -->
+                        <div class="filter-menu filter-button-group">
+                            <div class="f_btn active">
+                                <label><input type="radio" name="fl_radio" value="grid-item" />All</label>
+                            </div>
+                            <div class="f_btn">
+                                <label><input type="radio" name="fl_radio" value="photo" />Imagenes</label>
+                            </div>
+                            <div class="f_btn">
+                                <label><input type="radio" name="fl_radio" value="video" />Videos</label>
+                            </div>
+                            <div class="f_btn">
+                                <label><input type="radio" name="fl_radio" value="music" />PDF</label>
+                            </div>
+                            <div class="f_btn">
+                                <label><input type="radio" name="fl_radio" value="design" />Diseños</label>
+                            </div>
+                        </div>
+                        <!-- content -->
+                        <div class="row grid-items border-line-v">
+                            <!-- Imagenes -->
+                            <div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+                                <div class="box-item">
+                                    <div class="image">
+                                        <a href="img/works/JavaScripts/CarritoCompras.jpg" class="has-popup-image">
+                                            <img src="img/works/JavaScripts/CarritoCompras.jpg" alt="" />
+                                            <span class="info"><span class="ion ion-image"></span></span>
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <a href="img/works/JavaScripts/CarritoCompras.jpg" class="name has-popup-image">Dashboard</a>
+                                        <div class="category">Imagenes</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+                                <div class="box-item">
+                                    <div class="image">
+                                        <a href="img/works/bootstrap/dashboard.jpg" class="has-popup-image">
+                                            <img src="img/works/bootstrap/dashboard.jpg" alt="" />
+                                            <span class="info"><span class="ion ion-image"></span></span>
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <a href="img/works/bootstrap/dashboard.jpg" class="name has-popup-image">Dashboard</a>
+                                        <div class="category">Imagenes</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+                                <div class="box-item">
+                                    <div class="image">
+                                        <a href="img/works/bootstrap/portafolio.jpg" class="has-popup-image">
+                                            <img src="img/works/bootstrap/portafolio.jpg" alt="" />
+                                            <span class="info"><span class="ion ion-image"></span></span>
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <a href="img/works/bootstrap/portafolio.jpg" class="name has-popup-image">Portafolio</a>
+                                        <div class="category">Imagenes</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+                                <div class="box-item">
+                                    <div class="image">
+                                        <a href="img/works/bootstrap/redSocial.jpg" class="has-popup-image">
+                                            <img src="img/works/bootstrap/redSocial.jpg" alt="" />
+                                            <span class="info"><span class="ion ion-image"></span></span>
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <a href="img/works/bootstrap/redSocial.jpg" class="name has-popup-image">Sitio RedSocial</a>
+                                        <div class="category">Imagenes</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+                                <div class="box-item">
+                                    <div class="image">
+                                        <a href="img/works/bootstrap/comidaChilena.jpg" class="has-popup-image">
+                                            <img src="img/works/bootstrap/comidaChilena.jpg" alt="" />
+                                            <span class="info"><span class="ion ion-image"></span></span>
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <a href="img/works/bootstrap/comidaChilena.jpg" class="name has-popup-image">Sitio Web de Comida Rápida</a>
+                                        <div class="category">Imagenes</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+                                <div class="box-item">
+                                    <div class="image">
+                                        <a href="img/works/JavaScripts/AppGastos.jpg" class="has-popup-image">
+                                            <img src="img/works/JavaScripts/AppGastos.jpg" alt="" />
+                                            <span class="info"><span class="ion ion-image"></span></span>
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <a href="img/works/JavaScripts/AppGastos.jpg" class="name has-popup-image">App Gastos</a>
+                                        <div class="category">Imagenes</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Videos -->
+                            <div class="col col-d-6 col-t-6 col-m-12 grid-item video border-line-h">
+                                <div class="box-item">
+                                    <div class="image">
+                                        <a href="videos/bomba3d.mp4" class="has-popup-video">
+                                            <img src="img/works/bomba3d.jpg" alt="" />
+                                            <span class="info"><span class="ion ion-videocamera"></span></span>
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <a href="videos/bomba3d.mp4" class="name has-popup-video">Bomba de Agua</a>
+                                        <div class="category">Video</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- PDF -->
+                            <div class="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h">
+                                <div class="box-item">
+                                    <div class="image">
+                                        <a href="docs/sample.pdf" class="has-popup-pdf">
+                                            <img src="img/works/work3.jpg" alt="" />
+                                            <span class="info"><span class="ion ion-document"></span></span>
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <a href="docs/sample.pdf" class="name has-popup-pdf">Documento PDF</a>
+                                        <div class="category">PDF</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Diseños -->
+                            <div class="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h">
+                                <div class="box-item">
+                                    <div class="image">
+                                        <a href="#popup-1" class="has-popup-media">
+                                            <img src="img/works/JavaScripts/SitioViajes.jpg" alt="" />
+                                            <span class="info"><span class="ion ion-images"></span></span>
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <a href="#popup-1" class="name has-popup-media">Sitio Web de Viajes</a>
+                                        <div class="category">Design</div>
+                                    </div>
+                                    <div id="popup-1" class="popup-box mfp-fade mfp-hide">
+                                        <div class="content">
+                                            <!-- Contenido detallado del popup -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- end .grid-items -->
+                    </div> <!-- end .works -->
+                </div>
+            </div>
+            <!-- Card - Blog -->
+            <div class="card-inner blog" id="blog-card">
+                <div class="card-wrap">      
+                    <!-- Blog -->
+                    <div class="content blog">      
+                        <!-- Title -->
+                        <h2 class="title text-center mb-4">Últimas Publicaciones</h2>       
+                        <!-- Blog Content -->
+                        <div class="row gx-4 gy-4">        
+                            <!-- Blog Item -->
+                            <div class="col-12 border-top pt-3">
+                                <div class="box-item d-flex flex-column flex-md-row align-items-start gap-3">
+                                <div class="image position-relative">
+                                    <a href="blog-post.html" class="d-block position-relative">
+                                    <img src="img/blog/blog1.jpg" alt="Blog post 1" class="img-fluid rounded">
+                                    <span class="info position-absolute top-0 end-0 me-2 mt-2">
+                                        <i class="ion ion-document-text"></i>
+                                    </span>
+                                    <span class="date position-absolute bottom-0 start-0 ms-2 mb-2 bg-dark text-white px-2 py-1 rounded small">
+                                        <strong>20</strong> Jun
+                                    </span>
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <a href="blog-post.html" class="h5 d-block text-decoration-none">By spite about do of do allow blush</a>
+                                    <span class="text-muted">Diseño</span>
+                                </div>
+                                </div>
+                            </div>       
+                            <!-- Blog Item -->
+                            <div class="col-12 border-top pt-3">
+                                <div class="box-item d-flex flex-column flex-md-row align-items-start gap-3">
+                                <div class="image position-relative">
+                                    <a href="blog-post.html">
+                                    <img src="img/blog/blog2.jpg" alt="Blog post 2" class="img-fluid rounded">
+                                    <span class="info position-absolute top-0 end-0 me-2 mt-2">
+                                        <i class="ion ion-document-text"></i>
+                                    </span>
+                                    <span class="date position-absolute bottom-0 start-0 ms-2 mb-2 bg-dark text-white px-2 py-1 rounded small">
+                                        <strong>19</strong> Jun
+                                    </span>
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <a href="blog-post.html" class="h5 d-block text-decoration-none">Two Before Arrow Not Relied</a>
+                                    <span class="text-muted">Programación</span>
+                                </div>
+                                </div>
+                            </div>           
+                            <!-- Blog Item -->
+                            <div class="col-12 border-top pt-3">
+                                <div class="box-item d-flex flex-column flex-md-row align-items-start gap-3">
+                                    <div class="image position-relative">
+                                        <a href="blog-post.html">
+                                        <img src="img/blog/blog3.jpg" alt="Blog post 3" class="img-fluid rounded">
+                                        <span class="info position-absolute top-0 end-0 me-2 mt-2">
+                                            <i class="ion ion-document-text"></i>
+                                        </span>
+                                        <span class="date position-absolute bottom-0 start-0 ms-2 mb-2 bg-dark text-white px-2 py-1 rounded small">
+                                            <strong>20</strong> Jun
+                                        </span>
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <a href="blog-post.html" class="h5 d-block text-decoration-none">By spite about do of do allow blush</a>
+                                        <span class="text-muted">Viajes</span>
+                                    </div>
+                                </div>
+                            </div>           
+                        </div>              
+                    </div>
+                </div>
+            </div>
+            <!--Card - Contacts-->
+            <div class="card-inner contacts" id="contacts-card">
+                <div class="card-wrap">         
+                    <!-- Información de contacto y mapa -->
+                    <div class="content contacts">
+                        <div class="title">Ubicación</div>
+                        <div class="row">
+                            <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+                                <div id="map" style="height: 400px;"></div>
+                                <div class="info-list">
+                                    <ul>
+                                        <li><strong>Dirección:</strong> Santiago, CHILE</li>
+                                        <li><strong>Email:</strong> ivan.bustos.h@gmail.com</li>
+                                        <li><strong>Teléfono:</strong> +56 987654321</li>
+                                        <li><strong>Disponibilidad:</strong> Inmediata</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>           
+                    <!-- Formulario de contacto -->
+                    <div class="content contacts">
+                        <div class="title">Formulario de Contacto</div>
+                        <div class="row">
+                            <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+                                <div class="contact_form">
+                                    <form id="cform" method="post">
+                                        <div class="row">
+                                            <div class="col col-d-6 col-t-6 col-m-12">
+                                                <div class="group-val">
+                                                    <input type="text" name="name" placeholder="Nombre completo" />
+                                                </div>
+                                            </div>
+                                            <div class="col col-d-6 col-t-6 col-m-12">
+                                                <div class="group-val">
+                                                    <input type="email" name="email" placeholder="Correo electrónico" />
+                                                </div>
+                                            </div>
+                                            <div class="col col-d-12 col-t-12 col-m-12">
+                                                <div class="group-val">
+                                                    <textarea name="message" placeholder="Tu mensaje"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="align-left">
+                                            <a href="#" class="button" onclick="$('#cform').submit(); return false;">
+                                                <span class="text">Enviar Mensaje</span>
+                                                <span class="arrow"></span>
+                                            </a>
+                                        </div>
+                                    </form>
+                                    <div class="alert-success">
+                                        <p>Gracias, tu mensaje ha sido enviado correctamente.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        </div>    
+    </div>
+
+        <!-- Enlace a Swiper.js -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+        <!-- Inicialización del carrusel -->
+        <script>var swiper = new Swiper('.client-carousel', {
+            loop: true,
+            autoplay: { 
+                delay: 3000, 
+                disableOnInteraction: false // Permite que siga moviéndose después de la interacción
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
+            }
+        });
+        </script> 
+
+    <!--jQuery Scripts-->
+	<script async defer src="https://www.google.cl/maps/search/santiago+santiago.+chile/@-36.8117389,-73.0673989,14z"></script>
+	<script src="js/scripts.min.js"></script>
+	<script src="js/leaflet.js"></script>
+	
+</body>
+</html>
