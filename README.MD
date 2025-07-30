@@ -33,22 +33,6 @@ Soy un desarrollador de software con experiencia en el diseño y desarrollo de a
   - Visual Studio Code
   - Adobe XD
 
-## Proyectos Destacados
-
-### 1. **[Nombre del Proyecto 1]**
-- **Descripción:** Breve descripción de lo que hace el proyecto.
-- **Tecnologías Utilizadas:** Listado de las tecnologías usadas.
-- **Enlace:** [Ver Proyecto](URL del proyecto)
-
-### 2. **[Nombre del Proyecto 2]**
-- **Descripción:** Breve descripción de lo que hace el proyecto.
-- **Tecnologías Utilizadas:** Listado de las tecnologías usadas.
-- **Enlace:** [Ver Proyecto](URL del proyecto)
-
-### 3. **[Nombre del Proyecto 3]**
-- **Descripción:** Breve descripción de lo que hace el proyecto.
-- **Tecnologías Utilizadas:** Listado de las tecnologías usadas.
-- **Enlace:** [Ver Proyecto](URL del proyecto)
 
 ## Servicios
 
